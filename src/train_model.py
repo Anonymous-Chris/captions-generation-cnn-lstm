@@ -185,7 +185,7 @@ model.compile(loss="categorical_crossentropy", optimizer="adam")
 model.summary()
 
 # Train one epoch first
-history = model.fit(train_generator, validation_data=value_generator, epochs=1)
+history = model.fit(train_generator, validation_data=value_generator, epochs=10)
 
 # Save model
 model.save("models/image_caption_model.keras")
