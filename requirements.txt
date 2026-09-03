@@ -6,3 +6,4 @@ pillow
 nltk 
 scikit-learn 
 jupyter
+gradio
