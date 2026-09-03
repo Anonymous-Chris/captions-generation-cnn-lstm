@@ -185,9 +185,12 @@ model.compile(loss="categorical_crossentropy", optimizer="adam")
 model.summary()
 
 # Train one epoch first
-history = model.fit(train_generator, validation_data=value_generator, epochs=10)
+history = model.fit(train_generator, validation_data=value_generator, epochs=2)
 
 # Save model
 model.save("models/image_caption_model.keras")
-
 print("Model saved")
+
+history_data = pd.DataFrame(history.history)
+history_data.to_csv("models/training_history.csv", index=False)
+print("Training history saved")
