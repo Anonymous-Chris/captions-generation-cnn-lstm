@@ -31,7 +31,7 @@ data["clean_caption"] = data["caption"].apply(clean_caption_function)
 # print(data[["caption", "clean_caption"]].head(10))
 
 # Add special tokens
-# data["clean_caption"] = "startseq " + data["clean_caption"] + " endseq"
+data["clean_caption"] = "startseq " + data["clean_caption"] + " endseq"
 # print(data[["caption", "clean_caption"]].head(10))
 
 # Create tokenizer
