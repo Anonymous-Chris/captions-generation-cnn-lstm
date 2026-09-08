@@ -1,0 +1,320 @@
+image,perturbation_type,original_caption,perturbed_caption
+2224995194_518859d97d.jpg,original,the rock climbers are on their equipment in front of a cave,the rock climbers are on their equipment in front of a cave
+2224995194_518859d97d.jpg,hallucination,the rock climbers are on their equipment in front of a cave,the rock climbers are on their equipment in front of a cave with a helicopter
+3168123064_d1983b8f92.jpg,original,a person in a black wetsuit is surfing in the ocean with a wave coming down,a person in a black wetsuit is surfing in the ocean with a wave coming down
+3168123064_d1983b8f92.jpg,negation,a person in a black wetsuit is surfing in the ocean with a wave coming down,a person in a black wetsuit is not surfing in the ocean with a wave coming down
+3168123064_d1983b8f92.jpg,hallucination,a person in a black wetsuit is surfing in the ocean with a wave coming down,a person in a black wetsuit is surfing in the ocean with a wave coming down with a helicopter
+2441629086_52f68eb316.jpg,original,a girl is peeking in a window,a girl is peeking in a window
+2441629086_52f68eb316.jpg,person_replacement,a girl is peeking in a window,a boy is peeking in a window
+2441629086_52f68eb316.jpg,negation,a girl is peeking in a window,a girl is not peeking in a window
+2441629086_52f68eb316.jpg,hallucination,a girl is peeking in a window,a girl is peeking in a window with a suitcase
+3279524184_d5e2ffbaed.jpg,original,two black and white dogs and one has something blue in its mouth,two black and white dogs and one has something blue in its mouth
+3279524184_d5e2ffbaed.jpg,color_replacement,two black and white dogs and one has something blue in its mouth,two black and white dogs and one has something red in its mouth
+3279524184_d5e2ffbaed.jpg,hallucination,two black and white dogs and one has something blue in its mouth,two black and white dogs and one has something blue in its mouth with an umbrella
+3339105374_cc41e0b7d7.jpg,original,a woman in a red coat with a man in a white and black coat and a black dog in the snow,a woman in a red coat with a man in a white and black coat and a black dog in the snow
+3339105374_cc41e0b7d7.jpg,object_replacement,a woman in a red coat with a man in a white and black coat and a black dog in the snow,a woman in a red coat with a man in a white and black coat and a black cat in the snow
+3339105374_cc41e0b7d7.jpg,person_replacement,a woman in a red coat with a man in a white and black coat and a black dog in the snow,a man in a red coat with a man in a white and black coat and a black dog in the snow
+3339105374_cc41e0b7d7.jpg,color_replacement,a woman in a red coat with a man in a white and black coat and a black dog in the snow,a woman in a blue coat with a man in a white and black coat and a black dog in the snow
+3339105374_cc41e0b7d7.jpg,hallucination,a woman in a red coat with a man in a white and black coat and a black dog in the snow,a woman in a red coat with a man in a white and black coat and a black dog in the snow with an umbrella
+2272750492_91e8f67328.jpg,original,a man jumps through the air while snowboarding,a man jumps through the air while snowboarding
+2272750492_91e8f67328.jpg,person_replacement,a man jumps through the air while snowboarding,a woman jumps through the air while snowboarding
+2272750492_91e8f67328.jpg,hallucination,a man jumps through the air while snowboarding,a man jumps through the air while snowboarding with an umbrella
+2021671653_567395c7cf.jpg,original,a boy dressed in denim is running on the sidewalk,a boy dressed in denim is running on the sidewalk
+2021671653_567395c7cf.jpg,person_replacement,a boy dressed in denim is running on the sidewalk,a girl dressed in denim is running on the sidewalk
+2021671653_567395c7cf.jpg,action_replacement,a boy dressed in denim is running on the sidewalk,a boy dressed in denim is standing on the sidewalk
+2021671653_567395c7cf.jpg,negation,a boy dressed in denim is running on the sidewalk,a boy dressed in denim is not running on the sidewalk
+2021671653_567395c7cf.jpg,hallucination,a boy dressed in denim is running on the sidewalk,a boy dressed in denim is running on the sidewalk with a helicopter
+416960865_048fd3f294.jpg,original,a hiker in a red on a snowy peak,a hiker in a red on a snowy peak
+416960865_048fd3f294.jpg,color_replacement,a hiker in a red on a snowy peak,a hiker in a blue on a snowy peak
+416960865_048fd3f294.jpg,hallucination,a hiker in a red on a snowy peak,a hiker in a red on a snowy peak with a television
+3474406285_01f3d24b71.jpg,original,a brown dog jumping over a blue and yellow stick,a brown dog jumping over a blue and yellow stick
+3474406285_01f3d24b71.jpg,object_replacement,a brown dog jumping over a blue and yellow stick,a brown cat jumping over a blue and yellow stick
+3474406285_01f3d24b71.jpg,hallucination,a brown dog jumping over a blue and yellow stick,a brown dog jumping over a blue and yellow stick with a helicopter
+3690348036_a01f243fb0.jpg,original,a bmx biker is in midair attempting a trick,a bmx biker is in midair attempting a trick
+3690348036_a01f243fb0.jpg,hallucination,a bmx biker is in midair attempting a trick,a bmx biker is in midair attempting a trick with a television
+2746839158_4195210d27.jpg,original,children playing outside in a fountain,children playing outside in a fountain
+2746839158_4195210d27.jpg,hallucination,children playing outside in a fountain,children playing outside in a fountain with a traffic cone
+989754491_7e53fb4586.jpg,original,a girl in a pool wearing goggles and surrounded by other children,a girl in a pool wearing goggles and surrounded by other children
+989754491_7e53fb4586.jpg,person_replacement,a girl in a pool wearing goggles and surrounded by other children,a boy in a pool wearing goggles and surrounded by other children
+989754491_7e53fb4586.jpg,hallucination,a girl in a pool wearing goggles and surrounded by other children,a girl in a pool wearing goggles and surrounded by other children with a helicopter
+3638178504_be1ff246bd.jpg,original,a little girl is looking at the two horses on the other side of the fence,a little girl is looking at the two horses on the other side of the fence
+3638178504_be1ff246bd.jpg,person_replacement,a little girl is looking at the two horses on the other side of the fence,a little boy is looking at the two horses on the other side of the fence
+3638178504_be1ff246bd.jpg,negation,a little girl is looking at the two horses on the other side of the fence,a little girl is not looking at the two horses on the other side of the fence
+3638178504_be1ff246bd.jpg,hallucination,a little girl is looking at the two horses on the other side of the fence,a little girl is looking at the two horses on the other side of the fence with a helicopter
+3472270112_0a7cb7b27c.jpg,original,a baseman and a ballplayer from the opposing team sliding onto base,a baseman and a ballplayer from the opposing team sliding onto base
+3472270112_0a7cb7b27c.jpg,hallucination,a baseman and a ballplayer from the opposing team sliding onto base,a baseman and a ballplayer from the opposing team sliding onto base with a helicopter
+3464871350_3f2d624a9c.jpg,original,a driver is sitting in a team penske race car,a driver is sitting in a team penske race car
+3464871350_3f2d624a9c.jpg,object_replacement,a driver is sitting in a team penske race car,a driver is sitting in a team penske race truck
+3464871350_3f2d624a9c.jpg,negation,a driver is sitting in a team penske race car,a driver is not sitting in a team penske race car
+3464871350_3f2d624a9c.jpg,hallucination,a driver is sitting in a team penske race car,a driver is sitting in a team penske race car with an umbrella
+493542985_c85ad29ebe.jpg,original,a girl is rowing in a lake,a girl is rowing in a lake
+493542985_c85ad29ebe.jpg,person_replacement,a girl is rowing in a lake,a boy is rowing in a lake
+493542985_c85ad29ebe.jpg,negation,a girl is rowing in a lake,a girl is not rowing in a lake
+493542985_c85ad29ebe.jpg,hallucination,a girl is rowing in a lake,a girl is rowing in a lake with an umbrella
+2303016989_0deb96c8d9.jpg,original,a black and white dog is catching a red and green object in his mouth,a black and white dog is catching a red and green object in his mouth
+2303016989_0deb96c8d9.jpg,object_replacement,a black and white dog is catching a red and green object in his mouth,a black and white cat is catching a red and green object in his mouth
+2303016989_0deb96c8d9.jpg,negation,a black and white dog is catching a red and green object in his mouth,a black and white dog is not catching a red and green object in his mouth
+2303016989_0deb96c8d9.jpg,hallucination,a black and white dog is catching a red and green object in his mouth,a black and white dog is catching a red and green object in his mouth with a television
+540604040_bec822c144.jpg,original,a girl sliding down a pole,a girl sliding down a pole
+540604040_bec822c144.jpg,person_replacement,a girl sliding down a pole,a boy sliding down a pole
+540604040_bec822c144.jpg,hallucination,a girl sliding down a pole,a girl sliding down a pole with a television
+2735979477_eef7c680f9.jpg,original,a tan dog and larger white dog run along the grass,a tan dog and larger white dog run along the grass
+2735979477_eef7c680f9.jpg,object_replacement,a tan dog and larger white dog run along the grass,a tan cat and larger white dog run along the grass
+2735979477_eef7c680f9.jpg,hallucination,a tan dog and larger white dog run along the grass,a tan dog and larger white dog run along the grass with a helicopter
+2053441349_a98b5fc742.jpg,original,a dog in a field of colorful flowers,a dog in a field of colorful flowers
+2053441349_a98b5fc742.jpg,object_replacement,a dog in a field of colorful flowers,a cat in a field of colorful flowers
+2053441349_a98b5fc742.jpg,hallucination,a dog in a field of colorful flowers,a dog in a field of colorful flowers with a television
+244910177_7c4ec3f65b.jpg,original,three woman walk down a city street and one has a pink purse,three woman walk down a city street and one has a pink purse
+244910177_7c4ec3f65b.jpg,person_replacement,three woman walk down a city street and one has a pink purse,three man walk down a city street and one has a pink purse
+244910177_7c4ec3f65b.jpg,color_replacement,three woman walk down a city street and one has a pink purse,three woman walk down a city street and one has a purple purse
+244910177_7c4ec3f65b.jpg,hallucination,three woman walk down a city street and one has a pink purse,three woman walk down a city street and one has a pink purse with an umbrella
+2290589734_b588471345.jpg,original,one boy in a black shirt is grabbing the flag of the boy in the red shirt with the football,one boy in a black shirt is grabbing the flag of the boy in the red shirt with the football
+2290589734_b588471345.jpg,person_replacement,one boy in a black shirt is grabbing the flag of the boy in the red shirt with the football,one girl in a black shirt is grabbing the flag of the boy in the red shirt with the football
+2290589734_b588471345.jpg,color_replacement,one boy in a black shirt is grabbing the flag of the boy in the red shirt with the football,one boy in a black shirt is grabbing the flag of the boy in the blue shirt with the football
+2290589734_b588471345.jpg,negation,one boy in a black shirt is grabbing the flag of the boy in the red shirt with the football,one boy in a black shirt is not grabbing the flag of the boy in the red shirt with the football
+2290589734_b588471345.jpg,hallucination,one boy in a black shirt is grabbing the flag of the boy in the red shirt with the football,one boy in a black shirt is grabbing the flag of the boy in the red shirt with the football with a television
+3685373706_37f2ced9ff.jpg,original,a man is shirtless and is covered in red marks,a man is shirtless and is covered in red marks
+3685373706_37f2ced9ff.jpg,person_replacement,a man is shirtless and is covered in red marks,a woman is shirtless and is covered in red marks
+3685373706_37f2ced9ff.jpg,color_replacement,a man is shirtless and is covered in red marks,a man is shirtless and is covered in blue marks
+3685373706_37f2ced9ff.jpg,hallucination,a man is shirtless and is covered in red marks,a man is shirtless and is covered in red marks with a traffic cone
+382701159_f98c1988cd.jpg,original,a man fishes in the ocean,a man fishes in the ocean
+382701159_f98c1988cd.jpg,person_replacement,a man fishes in the ocean,a woman fishes in the ocean
+382701159_f98c1988cd.jpg,hallucination,a man fishes in the ocean,a man fishes in the ocean with an umbrella
+3053415073_5b667230ed.jpg,original,a person on skis on a rail at night,a person on skis on a rail at night
+3053415073_5b667230ed.jpg,hallucination,a person on skis on a rail at night,a person on skis on a rail at night with a traffic cone
+1287475186_2dee85f1a5.jpg,original,a boy sitting in water,a boy sitting in water
+1287475186_2dee85f1a5.jpg,person_replacement,a boy sitting in water,a girl sitting in water
+1287475186_2dee85f1a5.jpg,hallucination,a boy sitting in water,a boy sitting in water with a television
+769260947_02bc973d76.jpg,original,a dog stands shoulder deep in muddy water,a dog stands shoulder deep in muddy water
+769260947_02bc973d76.jpg,object_replacement,a dog stands shoulder deep in muddy water,a cat stands shoulder deep in muddy water
+769260947_02bc973d76.jpg,hallucination,a dog stands shoulder deep in muddy water,a dog stands shoulder deep in muddy water with a suitcase
+3375134059_7e9eb2ef01.jpg,original,one dog on the ground and another dog standing above it,one dog on the ground and another dog standing above it
+3375134059_7e9eb2ef01.jpg,object_replacement,one dog on the ground and another dog standing above it,one cat on the ground and another dog standing above it
+3375134059_7e9eb2ef01.jpg,hallucination,one dog on the ground and another dog standing above it,one dog on the ground and another dog standing above it with a helicopter
+494329594_6e751372a0.jpg,original,a black woman in a pink bikini is sitting on a towel on a lounge chair,a black woman in a pink bikini is sitting on a towel on a lounge chair
+494329594_6e751372a0.jpg,person_replacement,a black woman in a pink bikini is sitting on a towel on a lounge chair,a black man in a pink bikini is sitting on a towel on a lounge chair
+494329594_6e751372a0.jpg,color_replacement,a black woman in a pink bikini is sitting on a towel on a lounge chair,a black woman in a purple bikini is sitting on a towel on a lounge chair
+494329594_6e751372a0.jpg,negation,a black woman in a pink bikini is sitting on a towel on a lounge chair,a black woman in a pink bikini is not sitting on a towel on a lounge chair
+494329594_6e751372a0.jpg,hallucination,a black woman in a pink bikini is sitting on a towel on a lounge chair,a black woman in a pink bikini is sitting on a towel on a lounge chair with an umbrella
+599366440_a238e805cf.jpg,original,a black and white dog has pinned a brown dog to the ground in front of a wishing well,a black and white dog has pinned a brown dog to the ground in front of a wishing well
+599366440_a238e805cf.jpg,object_replacement,a black and white dog has pinned a brown dog to the ground in front of a wishing well,a black and white cat has pinned a brown dog to the ground in front of a wishing well
+599366440_a238e805cf.jpg,hallucination,a black and white dog has pinned a brown dog to the ground in front of a wishing well,a black and white dog has pinned a brown dog to the ground in front of a wishing well with a traffic cone
+3182258223_5b9c8a8c55.jpg,original,a woman in shadow looks at the camera while the one in the sun looks at a book,a woman in shadow looks at the camera while the one in the sun looks at a book
+3182258223_5b9c8a8c55.jpg,person_replacement,a woman in shadow looks at the camera while the one in the sun looks at a book,a man in shadow looks at the camera while the one in the sun looks at a book
+3182258223_5b9c8a8c55.jpg,hallucination,a woman in shadow looks at the camera while the one in the sun looks at a book,a woman in shadow looks at the camera while the one in the sun looks at a book with a suitcase
+380041023_0dfd712ef1.jpg,original,a brown and black dog runs through the leaves,a brown and black dog runs through the leaves
+380041023_0dfd712ef1.jpg,object_replacement,a brown and black dog runs through the leaves,a brown and black cat runs through the leaves
+380041023_0dfd712ef1.jpg,hallucination,a brown and black dog runs through the leaves,a brown and black dog runs through the leaves with a suitcase
+1000268201_693b08cb0e.jpg,original,a child in a pink dress is climbing up a set of stairs in an entry way,a child in a pink dress is climbing up a set of stairs in an entry way
+1000268201_693b08cb0e.jpg,color_replacement,a child in a pink dress is climbing up a set of stairs in an entry way,a child in a purple dress is climbing up a set of stairs in an entry way
+1000268201_693b08cb0e.jpg,negation,a child in a pink dress is climbing up a set of stairs in an entry way,a child in a pink dress is not climbing up a set of stairs in an entry way
+1000268201_693b08cb0e.jpg,hallucination,a child in a pink dress is climbing up a set of stairs in an entry way,a child in a pink dress is climbing up a set of stairs in an entry way with an umbrella
+3669564923_8fcb1a6eff.jpg,original,the girls are both eating and the girl wearing the color red has cake icing on her upper lip,the girls are both eating and the girl wearing the color red has cake icing on her upper lip
+3669564923_8fcb1a6eff.jpg,person_replacement,the girls are both eating and the girl wearing the color red has cake icing on her upper lip,the girls are both eating and the boy wearing the color red has cake icing on her upper lip
+3669564923_8fcb1a6eff.jpg,color_replacement,the girls are both eating and the girl wearing the color red has cake icing on her upper lip,the girls are both eating and the girl wearing the color blue has cake icing on her upper lip
+3669564923_8fcb1a6eff.jpg,hallucination,the girls are both eating and the girl wearing the color red has cake icing on her upper lip,the girls are both eating and the girl wearing the color red has cake icing on her upper lip with an umbrella
+2952320230_26601173be.jpg,original,a female tennis player swings for the ball,a female tennis player swings for the ball
+2952320230_26601173be.jpg,object_replacement,a female tennis player swings for the ball,a female tennis player swings for the book
+2952320230_26601173be.jpg,hallucination,a female tennis player swings for the ball,a female tennis player swings for the ball with a suitcase
+3600403707_527aa0596e.jpg,original,a garden shop is being perused by shoppers with a sitting shop owner waving,a garden shop is being perused by shoppers with a sitting shop owner waving
+3600403707_527aa0596e.jpg,negation,a garden shop is being perused by shoppers with a sitting shop owner waving,a garden shop is not being perused by shoppers with a sitting shop owner waving
+3600403707_527aa0596e.jpg,hallucination,a garden shop is being perused by shoppers with a sitting shop owner waving,a garden shop is being perused by shoppers with a sitting shop owner waving with a helicopter
+3256043809_47258e0b3e.jpg,original,a brown and white dog is sniffing the snow covered ground,a brown and white dog is sniffing the snow covered ground
+3256043809_47258e0b3e.jpg,object_replacement,a brown and white dog is sniffing the snow covered ground,a brown and white cat is sniffing the snow covered ground
+3256043809_47258e0b3e.jpg,negation,a brown and white dog is sniffing the snow covered ground,a brown and white dog is not sniffing the snow covered ground
+3256043809_47258e0b3e.jpg,hallucination,a brown and white dog is sniffing the snow covered ground,a brown and white dog is sniffing the snow covered ground with a helicopter
+3481859121_3d3e566ec0.jpg,original,a group of people sitting on a sidewalk,a group of people sitting on a sidewalk
+3481859121_3d3e566ec0.jpg,hallucination,a group of people sitting on a sidewalk,a group of people sitting on a sidewalk with a traffic cone
+3482237861_605b4f0fd9.jpg,original,a boy is riding a scooter down the concrete path,a boy is riding a scooter down the concrete path
+3482237861_605b4f0fd9.jpg,person_replacement,a boy is riding a scooter down the concrete path,a girl is riding a scooter down the concrete path
+3482237861_605b4f0fd9.jpg,action_replacement,a boy is riding a scooter down the concrete path,a boy is carrying a scooter down the concrete path
+3482237861_605b4f0fd9.jpg,negation,a boy is riding a scooter down the concrete path,a boy is not riding a scooter down the concrete path
+3482237861_605b4f0fd9.jpg,hallucination,a boy is riding a scooter down the concrete path,a boy is riding a scooter down the concrete path with a helicopter
+3429465163_fb8ac7ce7f.jpg,original,a child in a red and grey coat in front of a wooden shed,a child in a red and grey coat in front of a wooden shed
+3429465163_fb8ac7ce7f.jpg,hallucination,a child in a red and grey coat in front of a wooden shed,a child in a red and grey coat in front of a wooden shed with a suitcase
+3150315970_8f045c41a4.jpg,original,a couple leaning over a concrete railing inside of a building,a couple leaning over a concrete railing inside of a building
+3150315970_8f045c41a4.jpg,hallucination,a couple leaning over a concrete railing inside of a building,a couple leaning over a concrete railing inside of a building with a suitcase
+292780636_72e1968949.jpg,original,a man in a black coat and hat sits by an old building,a man in a black coat and hat sits by an old building
+292780636_72e1968949.jpg,person_replacement,a man in a black coat and hat sits by an old building,a woman in a black coat and hat sits by an old building
+292780636_72e1968949.jpg,hallucination,a man in a black coat and hat sits by an old building,a man in a black coat and hat sits by an old building with a television
+766061382_6c7ff514c4.jpg,original,a bare chested smiling child plays in water,a bare chested smiling child plays in water
+766061382_6c7ff514c4.jpg,hallucination,a bare chested smiling child plays in water,a bare chested smiling child plays in water with a suitcase
+2630806789_6835bbae95.jpg,original,an orange canoe aimed toward two other canoes on a lake,an orange canoe aimed toward two other canoes on a lake
+2630806789_6835bbae95.jpg,hallucination,an orange canoe aimed toward two other canoes on a lake,an orange canoe aimed toward two other canoes on a lake with a helicopter
+3128514681_a51b415c31.jpg,original,two ladies wearing dresses pose on the side of the road at night,two ladies wearing dresses pose on the side of the road at night
+3128514681_a51b415c31.jpg,hallucination,two ladies wearing dresses pose on the side of the road at night,two ladies wearing dresses pose on the side of the road at night with a traffic cone
+2242863004_3a9f82a31f.jpg,original,a dog attempting to chew on a red ball,a dog attempting to chew on a red ball
+2242863004_3a9f82a31f.jpg,object_replacement,a dog attempting to chew on a red ball,a cat attempting to chew on a red ball
+2242863004_3a9f82a31f.jpg,color_replacement,a dog attempting to chew on a red ball,a dog attempting to chew on a blue ball
+2242863004_3a9f82a31f.jpg,hallucination,a dog attempting to chew on a red ball,a dog attempting to chew on a red ball with a television
+3304030264_da3dd18c7b.jpg,original,a boy in black pants and green tshirt jumps high with his skateboard,a boy in black pants and green tshirt jumps high with his skateboard
+3304030264_da3dd18c7b.jpg,person_replacement,a boy in black pants and green tshirt jumps high with his skateboard,a girl in black pants and green tshirt jumps high with her skateboard
+3304030264_da3dd18c7b.jpg,hallucination,a boy in black pants and green tshirt jumps high with his skateboard,a boy in black pants and green tshirt jumps high with his skateboard with a helicopter
+2431120202_b24fe2333a.jpg,original,a girl crosscountry skis,a girl crosscountry skis
+2431120202_b24fe2333a.jpg,person_replacement,a girl crosscountry skis,a boy crosscountry skis
+2431120202_b24fe2333a.jpg,hallucination,a girl crosscountry skis,a girl crosscountry skis with a traffic cone
+1419286010_b59af3962a.jpg,original,a fisherman is reeling his rod while another relaxes in a boat on water,a fisherman is reeling his rod while another relaxes in a boat on water
+1419286010_b59af3962a.jpg,object_replacement,a fisherman is reeling his rod while another relaxes in a boat on water,a fisherman is reeling his rod while another relaxes in a car on water
+1419286010_b59af3962a.jpg,negation,a fisherman is reeling his rod while another relaxes in a boat on water,a fisherman is not reeling his rod while another relaxes in a boat on water
+1419286010_b59af3962a.jpg,hallucination,a fisherman is reeling his rod while another relaxes in a boat on water,a fisherman is reeling his rod while another relaxes in a boat on water with a helicopter
+370614351_98b8a166b9.jpg,original,a man with a mohawk with his arms in the air,a man with a mohawk with his arms in the air
+370614351_98b8a166b9.jpg,person_replacement,a man with a mohawk with his arms in the air,a woman with a mohawk with her arms in the air
+370614351_98b8a166b9.jpg,hallucination,a man with a mohawk with his arms in the air,a man with a mohawk with his arms in the air with a television
+811662356_f9a632b63c.jpg,original,a child stands near a fence,a child stands near a fence
+811662356_f9a632b63c.jpg,hallucination,a child stands near a fence,a child stands near a fence with a suitcase
+3547499166_67fb4af4ea.jpg,original,the three people are dancing on a wood floor in kitchen clothing,the three people are dancing on a wood floor in kitchen clothing
+3547499166_67fb4af4ea.jpg,negation,the three people are dancing on a wood floor in kitchen clothing,the three people are not dancing on a wood floor in kitchen clothing
+3547499166_67fb4af4ea.jpg,hallucination,the three people are dancing on a wood floor in kitchen clothing,the three people are dancing on a wood floor in kitchen clothing with a television
+3682277595_55f8b16975.jpg,original,a brown and white dog trots across shallow water with his mouth open,a brown and white dog trots across shallow water with his mouth open
+3682277595_55f8b16975.jpg,object_replacement,a brown and white dog trots across shallow water with his mouth open,a brown and white cat trots across shallow water with his mouth open
+3682277595_55f8b16975.jpg,hallucination,a brown and white dog trots across shallow water with his mouth open,a brown and white dog trots across shallow water with his mouth open with a suitcase
+2528547068_7d37479b9b.jpg,original,a race car drives through a dirtcovered racetrack,a race car drives through a dirtcovered racetrack
+2528547068_7d37479b9b.jpg,object_replacement,a race car drives through a dirtcovered racetrack,a race truck drives through a dirtcovered racetrack
+2528547068_7d37479b9b.jpg,hallucination,a race car drives through a dirtcovered racetrack,a race car drives through a dirtcovered racetrack with a television
+289599470_cc665e2dfb.jpg,original,a black haired girl is eating corn on the cob,a black haired girl is eating corn on the cob
+289599470_cc665e2dfb.jpg,person_replacement,a black haired girl is eating corn on the cob,a black haired boy is eating corn on the cob
+289599470_cc665e2dfb.jpg,negation,a black haired girl is eating corn on the cob,a black haired girl is not eating corn on the cob
+289599470_cc665e2dfb.jpg,hallucination,a black haired girl is eating corn on the cob,a black haired girl is eating corn on the cob with an umbrella
+3613705104_46d854134e.jpg,original,a boy skateboards off a ramp covered in graffiti,a boy skateboards off a ramp covered in graffiti
+3613705104_46d854134e.jpg,person_replacement,a boy skateboards off a ramp covered in graffiti,a girl skateboards off a ramp covered in graffiti
+3613705104_46d854134e.jpg,hallucination,a boy skateboards off a ramp covered in graffiti,a boy skateboards off a ramp covered in graffiti with a helicopter
+3232470286_903a61ea16.jpg,original,a ball is about to enter a goal at a soccer match,a ball is about to enter a goal at a soccer match
+3232470286_903a61ea16.jpg,object_replacement,a ball is about to enter a goal at a soccer match,a book is about to enter a goal at a soccer match
+3232470286_903a61ea16.jpg,hallucination,a ball is about to enter a goal at a soccer match,a ball is about to enter a goal at a soccer match with a helicopter
+2115631346_9585a479b0.jpg,original,two brown dogs are running through the snow,two brown dogs are running through the snow
+2115631346_9585a479b0.jpg,negation,two brown dogs are running through the snow,two brown dogs are not running through the snow
+2115631346_9585a479b0.jpg,hallucination,two brown dogs are running through the snow,two brown dogs are running through the snow with an umbrella
+1721637099_93e9ec2a2f.jpg,original,a boy laying on clothes,a boy laying on clothes
+1721637099_93e9ec2a2f.jpg,person_replacement,a boy laying on clothes,a girl laying on clothes
+1721637099_93e9ec2a2f.jpg,hallucination,a boy laying on clothes,a boy laying on clothes with a suitcase
+516725192_c9cdd63878.jpg,original,a fisherman stands on the beach on a gray day,a fisherman stands on the beach on a gray day
+516725192_c9cdd63878.jpg,hallucination,a fisherman stands on the beach on a gray day,a fisherman stands on the beach on a gray day with a helicopter
+848180689_d67a1361ce.jpg,original,a girl and a woman playing with a ball in a pool,a girl and a woman playing with a ball in a pool
+848180689_d67a1361ce.jpg,object_replacement,a girl and a woman playing with a ball in a pool,a girl and a woman playing with a book in a pool
+848180689_d67a1361ce.jpg,person_replacement,a girl and a woman playing with a ball in a pool,a boy and a woman playing with a ball in a pool
+848180689_d67a1361ce.jpg,hallucination,a girl and a woman playing with a ball in a pool,a girl and a woman playing with a ball in a pool with an umbrella
+3678100844_e3a9802471.jpg,original,a lady with sunglasses on her head and a green sweatshirt is looking off camera,a lady with sunglasses on her head and a green sweatshirt is looking off camera
+3678100844_e3a9802471.jpg,color_replacement,a lady with sunglasses on her head and a green sweatshirt is looking off camera,a lady with sunglasses on her head and a yellow sweatshirt is looking off camera
+3678100844_e3a9802471.jpg,negation,a lady with sunglasses on her head and a green sweatshirt is looking off camera,a lady with sunglasses on her head and a green sweatshirt is not looking off camera
+3678100844_e3a9802471.jpg,hallucination,a lady with sunglasses on her head and a green sweatshirt is looking off camera,a lady with sunglasses on her head and a green sweatshirt is looking off camera with a helicopter
+3157847991_463e006a28.jpg,original,these men are smoking outside a grey building,these men are smoking outside a grey building
+3157847991_463e006a28.jpg,negation,these men are smoking outside a grey building,these men are not smoking outside a grey building
+3157847991_463e006a28.jpg,hallucination,these men are smoking outside a grey building,these men are smoking outside a grey building with a traffic cone
+3559374748_f18c7caa55.jpg,original,a blue and grey race car driving on a dirt track,a blue and grey race car driving on a dirt track
+3559374748_f18c7caa55.jpg,object_replacement,a blue and grey race car driving on a dirt track,a blue and grey race truck driving on a dirt track
+3559374748_f18c7caa55.jpg,hallucination,a blue and grey race car driving on a dirt track,a blue and grey race car driving on a dirt track with a suitcase
+2502782508_2c8211cd6b.jpg,original,a man in a hat and sunglasses reads a book on a park bench,a man in a hat and sunglasses reads a book on a park bench
+2502782508_2c8211cd6b.jpg,person_replacement,a man in a hat and sunglasses reads a book on a park bench,a woman in a hat and sunglasses reads a book on a park bench
+2502782508_2c8211cd6b.jpg,hallucination,a man in a hat and sunglasses reads a book on a park bench,a man in a hat and sunglasses reads a book on a park bench with a traffic cone
+3699522388_2333f01f40.jpg,original,a bald man in a black wetsuit flips leaps in the air on a surfboard holds on to a waterskiing handle,a bald man in a black wetsuit flips leaps in the air on a surfboard holds on to a waterskiing handle
+3699522388_2333f01f40.jpg,person_replacement,a bald man in a black wetsuit flips leaps in the air on a surfboard holds on to a waterskiing handle,a bald woman in a black wetsuit flips leaps in the air on a surfboard holds on to a waterskiing handle
+3699522388_2333f01f40.jpg,hallucination,a bald man in a black wetsuit flips leaps in the air on a surfboard holds on to a waterskiing handle,a bald man in a black wetsuit flips leaps in the air on a surfboard holds on to a waterskiing handle with a suitcase
+2774554310_007e980a90.jpg,original,a woman dressed in black and pink has a large tattoo on her back,a woman dressed in black and pink has a large tattoo on her back
+2774554310_007e980a90.jpg,person_replacement,a woman dressed in black and pink has a large tattoo on her back,a man dressed in black and pink has a large tattoo on his back
+2774554310_007e980a90.jpg,hallucination,a woman dressed in black and pink has a large tattoo on her back,a woman dressed in black and pink has a large tattoo on her back with an umbrella
+3424927725_c4d1fcfac3.jpg,original,a man in yellow sits on a rock ledge overlooking a forest,a man in yellow sits on a rock ledge overlooking a forest
+3424927725_c4d1fcfac3.jpg,person_replacement,a man in yellow sits on a rock ledge overlooking a forest,a woman in yellow sits on a rock ledge overlooking a forest
+3424927725_c4d1fcfac3.jpg,color_replacement,a man in yellow sits on a rock ledge overlooking a forest,a man in green sits on a rock ledge overlooking a forest
+3424927725_c4d1fcfac3.jpg,hallucination,a man in yellow sits on a rock ledge overlooking a forest,a man in yellow sits on a rock ledge overlooking a forest with a suitcase
+3160531982_37f5636b8a.jpg,original,a parachute is making his landing as the sunsets behind him,a parachute is making his landing as the sunsets behind him
+3160531982_37f5636b8a.jpg,negation,a parachute is making his landing as the sunsets behind him,a parachute is not making his landing as the sunsets behind him
+3160531982_37f5636b8a.jpg,hallucination,a parachute is making his landing as the sunsets behind him,a parachute is making his landing as the sunsets behind him with a suitcase
+3118534315_cc03e5ddab.jpg,original,a man is recording something with a red flag behind him,a man is recording something with a red flag behind him
+3118534315_cc03e5ddab.jpg,person_replacement,a man is recording something with a red flag behind him,a woman is recording something with a red flag behind her
+3118534315_cc03e5ddab.jpg,color_replacement,a man is recording something with a red flag behind him,a man is recording something with a blue flag behind him
+3118534315_cc03e5ddab.jpg,negation,a man is recording something with a red flag behind him,a man is not recording something with a red flag behind him
+3118534315_cc03e5ddab.jpg,hallucination,a man is recording something with a red flag behind him,a man is recording something with a red flag behind him with an umbrella
+973827791_467d83986e.jpg,original,a little kid splashes around in the kiddie pool while a lady watches,a little kid splashes around in the kiddie pool while a lady watches
+973827791_467d83986e.jpg,hallucination,a little kid splashes around in the kiddie pool while a lady watches,a little kid splashes around in the kiddie pool while a lady watches with a suitcase
+1110208841_5bb6806afe.jpg,original,a black and white border collie catches a frisbee in front of an audience,a black and white border collie catches a frisbee in front of an audience
+1110208841_5bb6806afe.jpg,hallucination,a black and white border collie catches a frisbee in front of an audience,a black and white border collie catches a frisbee in front of an audience with a helicopter
+3052038928_9f53aa2084.jpg,original,a group of five young adults lounging indoors,a group of five young adults lounging indoors
+3052038928_9f53aa2084.jpg,hallucination,a group of five young adults lounging indoors,a group of five young adults lounging indoors with a television
+308014594_f1d5e75507.jpg,original,two japanese girls are wearing traditional dress,two japanese girls are wearing traditional dress
+308014594_f1d5e75507.jpg,negation,two japanese girls are wearing traditional dress,two japanese girls are not wearing traditional dress
+308014594_f1d5e75507.jpg,hallucination,two japanese girls are wearing traditional dress,two japanese girls are wearing traditional dress with an umbrella
+957682378_46c3b07bcd.jpg,original,a brown dog and a black dog run into each other in the grass,a brown dog and a black dog run into each other in the grass
+957682378_46c3b07bcd.jpg,object_replacement,a brown dog and a black dog run into each other in the grass,a brown cat and a black dog run into each other in the grass
+957682378_46c3b07bcd.jpg,hallucination,a brown dog and a black dog run into each other in the grass,a brown dog and a black dog run into each other in the grass with a television
+3265964840_5374ed9c53.jpg,original,a boy on a snowboard leaps through the air,a boy on a snowboard leaps through the air
+3265964840_5374ed9c53.jpg,person_replacement,a boy on a snowboard leaps through the air,a girl on a snowboard leaps through the air
+3265964840_5374ed9c53.jpg,hallucination,a boy on a snowboard leaps through the air,a boy on a snowboard leaps through the air with an umbrella
+2049051050_20359a434a.jpg,original,a girl in a black jacket and hat is covered in a pink blanket,a girl in a black jacket and hat is covered in a pink blanket
+2049051050_20359a434a.jpg,person_replacement,a girl in a black jacket and hat is covered in a pink blanket,a boy in a black jacket and hat is covered in a pink blanket
+2049051050_20359a434a.jpg,color_replacement,a girl in a black jacket and hat is covered in a pink blanket,a girl in a black jacket and hat is covered in a purple blanket
+2049051050_20359a434a.jpg,hallucination,a girl in a black jacket and hat is covered in a pink blanket,a girl in a black jacket and hat is covered in a pink blanket with an umbrella
+3350786891_6d39b234e9.jpg,original,a group of dark skinned children are sitting beside a red metal container,a group of dark skinned children are sitting beside a red metal container
+3350786891_6d39b234e9.jpg,color_replacement,a group of dark skinned children are sitting beside a red metal container,a group of dark skinned children are sitting beside a blue metal container
+3350786891_6d39b234e9.jpg,action_replacement,a group of dark skinned children are sitting beside a red metal container,a group of dark skinned children are standing beside a red metal container
+3350786891_6d39b234e9.jpg,negation,a group of dark skinned children are sitting beside a red metal container,a group of dark skinned children are not sitting beside a red metal container
+3350786891_6d39b234e9.jpg,hallucination,a group of dark skinned children are sitting beside a red metal container,a group of dark skinned children are sitting beside a red metal container with a traffic cone
+2701603045_6cbdc4ce7c.jpg,original,a boy is wading through water,a boy is wading through water
+2701603045_6cbdc4ce7c.jpg,person_replacement,a boy is wading through water,a girl is wading through water
+2701603045_6cbdc4ce7c.jpg,negation,a boy is wading through water,a boy is not wading through water
+2701603045_6cbdc4ce7c.jpg,hallucination,a boy is wading through water,a boy is wading through water with a traffic cone
+1287931016_fb015e2e10.jpg,original,a black and a white dog on the snow,a black and a white dog on the snow
+1287931016_fb015e2e10.jpg,object_replacement,a black and a white dog on the snow,a black and a white cat on the snow
+1287931016_fb015e2e10.jpg,hallucination,a black and a white dog on the snow,a black and a white dog on the snow with a suitcase
+2518508760_68d8df7365.jpg,original,a dog in a yellow jersey is running a race,a dog in a yellow jersey is running a race
+2518508760_68d8df7365.jpg,object_replacement,a dog in a yellow jersey is running a race,a cat in a yellow jersey is running a race
+2518508760_68d8df7365.jpg,color_replacement,a dog in a yellow jersey is running a race,a dog in a green jersey is running a race
+2518508760_68d8df7365.jpg,negation,a dog in a yellow jersey is running a race,a dog in a yellow jersey is not running a race
+2518508760_68d8df7365.jpg,hallucination,a dog in a yellow jersey is running a race,a dog in a yellow jersey is running a race with a television
+3455757720_7aeba57056.jpg,original,a brown dog running along the dirt shore of a stream,a brown dog running along the dirt shore of a stream
+3455757720_7aeba57056.jpg,object_replacement,a brown dog running along the dirt shore of a stream,a brown cat running along the dirt shore of a stream
+3455757720_7aeba57056.jpg,hallucination,a brown dog running along the dirt shore of a stream,a brown dog running along the dirt shore of a stream with an umbrella
+3652572138_34d6b72999.jpg,original,a boy jumps,a boy jumps
+3652572138_34d6b72999.jpg,person_replacement,a boy jumps,a girl jumps
+3652572138_34d6b72999.jpg,hallucination,a boy jumps,a boy jumps with a suitcase
+1075881101_d55c46bece.jpg,original,a boy cleans the bubbles off his face,a boy cleans the bubbles off his face
+1075881101_d55c46bece.jpg,person_replacement,a boy cleans the bubbles off his face,a girl cleans the bubbles off her face
+1075881101_d55c46bece.jpg,hallucination,a boy cleans the bubbles off his face,a boy cleans the bubbles off his face with a helicopter
+3695949492_27ca3892fd.jpg,original,two dogs holding opposite ends of a toy with their mouths swimming,two dogs holding opposite ends of a toy with their mouths swimming
+3695949492_27ca3892fd.jpg,hallucination,two dogs holding opposite ends of a toy with their mouths swimming,two dogs holding opposite ends of a toy with their mouths swimming with an umbrella
+3496028495_431cfdc042.jpg,original,a brown dog swimming in the water with a tennis ball in his mouth,a brown dog swimming in the water with a tennis ball in his mouth
+3496028495_431cfdc042.jpg,object_replacement,a brown dog swimming in the water with a tennis ball in his mouth,a brown cat swimming in the water with a tennis ball in his mouth
+3496028495_431cfdc042.jpg,hallucination,a brown dog swimming in the water with a tennis ball in his mouth,a brown dog swimming in the water with a tennis ball in his mouth with a helicopter
+3134644844_493eec6cdc.jpg,original,a man is playing a guitar for a little girl in a hospital,a man is playing a guitar for a little girl in a hospital
+3134644844_493eec6cdc.jpg,person_replacement,a man is playing a guitar for a little girl in a hospital,a woman is playing a guitar for a little girl in a hospital
+3134644844_493eec6cdc.jpg,negation,a man is playing a guitar for a little girl in a hospital,a man is not playing a guitar for a little girl in a hospital
+3134644844_493eec6cdc.jpg,hallucination,a man is playing a guitar for a little girl in a hospital,a man is playing a guitar for a little girl in a hospital with a suitcase
+3242808166_8638150274.jpg,original,a bike rider in red rides through the trees down a snowy hill,a bike rider in red rides through the trees down a snowy hill
+3242808166_8638150274.jpg,object_replacement,a bike rider in red rides through the trees down a snowy hill,a motorcycle rider in red rides through the trees down a snowy hill
+3242808166_8638150274.jpg,color_replacement,a bike rider in red rides through the trees down a snowy hill,a bike rider in blue rides through the trees down a snowy hill
+3242808166_8638150274.jpg,hallucination,a bike rider in red rides through the trees down a snowy hill,a bike rider in red rides through the trees down a snowy hill with a traffic cone
+2206960564_325ed0c7ae.jpg,original,a beige puppy walks across the floor,a beige puppy walks across the floor
+2206960564_325ed0c7ae.jpg,hallucination,a beige puppy walks across the floor,a beige puppy walks across the floor with a suitcase
+2886411666_72d8b12ce4.jpg,original,a black brown and white dog is running beside a green fence in a grassy garden,a black brown and white dog is running beside a green fence in a grassy garden
+2886411666_72d8b12ce4.jpg,object_replacement,a black brown and white dog is running beside a green fence in a grassy garden,a black brown and white cat is running beside a green fence in a grassy garden
+2886411666_72d8b12ce4.jpg,color_replacement,a black brown and white dog is running beside a green fence in a grassy garden,a black brown and white dog is running beside a yellow fence in a grassy garden
+2886411666_72d8b12ce4.jpg,action_replacement,a black brown and white dog is running beside a green fence in a grassy garden,a black brown and white dog is standing beside a green fence in a grassy garden
+2886411666_72d8b12ce4.jpg,negation,a black brown and white dog is running beside a green fence in a grassy garden,a black brown and white dog is not running beside a green fence in a grassy garden
+2886411666_72d8b12ce4.jpg,hallucination,a black brown and white dog is running beside a green fence in a grassy garden,a black brown and white dog is running beside a green fence in a grassy garden with a helicopter
+3225998968_ef786d86e0.jpg,original,a man on skis on a snowcovered hill with mountains in the background,a man on skis on a snowcovered hill with mountains in the background
+3225998968_ef786d86e0.jpg,person_replacement,a man on skis on a snowcovered hill with mountains in the background,a woman on skis on a snowcovered hill with mountains in the background
+3225998968_ef786d86e0.jpg,hallucination,a man on skis on a snowcovered hill with mountains in the background,a man on skis on a snowcovered hill with mountains in the background with an umbrella
+136639119_6040b00946.jpg,original,a climber is attempting to climb around an overhang above the woods,a climber is attempting to climb around an overhang above the woods
+136639119_6040b00946.jpg,negation,a climber is attempting to climb around an overhang above the woods,a climber is not attempting to climb around an overhang above the woods
+136639119_6040b00946.jpg,hallucination,a climber is attempting to climb around an overhang above the woods,a climber is attempting to climb around an overhang above the woods with a television
+61209225_8512e1dad5.jpg,original,a civil war reenactment with cannon teams firing cannons,a civil war reenactment with cannon teams firing cannons
+61209225_8512e1dad5.jpg,hallucination,a civil war reenactment with cannon teams firing cannons,a civil war reenactment with cannon teams firing cannons with a suitcase
+1057089366_ca83da0877.jpg,original,a boy descends off the end of a high diving board,a boy descends off the end of a high diving board
+1057089366_ca83da0877.jpg,person_replacement,a boy descends off the end of a high diving board,a girl descends off the end of a high diving board
+1057089366_ca83da0877.jpg,hallucination,a boy descends off the end of a high diving board,a boy descends off the end of a high diving board with an umbrella
+3066491113_86569e15be.jpg,original,a black dog is following a brown dog that is carrying a brown plate through a grassy field,a black dog is following a brown dog that is carrying a brown plate through a grassy field
+3066491113_86569e15be.jpg,object_replacement,a black dog is following a brown dog that is carrying a brown plate through a grassy field,a black cat is following a brown dog that is carrying a brown plate through a grassy field
+3066491113_86569e15be.jpg,negation,a black dog is following a brown dog that is carrying a brown plate through a grassy field,a black dog is not following a brown dog that is carrying a brown plate through a grassy field
+3066491113_86569e15be.jpg,hallucination,a black dog is following a brown dog that is carrying a brown plate through a grassy field,a black dog is following a brown dog that is carrying a brown plate through a grassy field with a traffic cone
+3608663656_9192a21eeb.jpg,original,a man climbs up the side of a steep rock that overlooks a river,a man climbs up the side of a steep rock that overlooks a river
+3608663656_9192a21eeb.jpg,person_replacement,a man climbs up the side of a steep rock that overlooks a river,a woman climbs up the side of a steep rock that overlooks a river
+3608663656_9192a21eeb.jpg,hallucination,a man climbs up the side of a steep rock that overlooks a river,a man climbs up the side of a steep rock that overlooks a river with a traffic cone
+3275537015_74e04c0f3e.jpg,original,four girls are playing volleyball on a sandy beach near ocean,four girls are playing volleyball on a sandy beach near ocean
+3275537015_74e04c0f3e.jpg,negation,four girls are playing volleyball on a sandy beach near ocean,four girls are not playing volleyball on a sandy beach near ocean
+3275537015_74e04c0f3e.jpg,hallucination,four girls are playing volleyball on a sandy beach near ocean,four girls are playing volleyball on a sandy beach near ocean with a traffic cone
+1457762320_7fe121b285.jpg,original,a group of bicyclists getting ready for a ride,a group of bicyclists getting ready for a ride
+1457762320_7fe121b285.jpg,hallucination,a group of bicyclists getting ready for a ride,a group of bicyclists getting ready for a ride with an umbrella
+2407091303_931c918490.jpg,original,a child plays at a playground,a child plays at a playground
+2407091303_931c918490.jpg,hallucination,a child plays at a playground,a child plays at a playground with a suitcase
+2164363131_6930455d45.jpg,original,a dog leaps for a toy on a road,a dog leaps for a toy on a road
+2164363131_6930455d45.jpg,object_replacement,a dog leaps for a toy on a road,a cat leaps for a toy on a road
+2164363131_6930455d45.jpg,hallucination,a dog leaps for a toy on a road,a dog leaps for a toy on a road with an umbrella
