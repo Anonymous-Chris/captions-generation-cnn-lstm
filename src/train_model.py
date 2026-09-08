@@ -5,6 +5,7 @@ import string
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
+from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 from tensorflow.keras.layers import LSTM, Add, Dense, Dropout, Embedding, Input
 from tensorflow.keras.models import Model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
@@ -185,10 +186,21 @@ model.compile(loss="categorical_crossentropy", optimizer="adam")
 model.summary()
 
 # Train one epoch first
-history = model.fit(train_generator, validation_data=value_generator, epochs=2)
+early_stopping = EarlyStopping(
+    monitor="val_loss", patience=3, restore_best_weights=True
+)
+checkpoint = ModelCheckpoint(
+    "models/best_image_caption_model.keras", monitor="val_loss", save_best_only=True
+)
+history = model.fit(
+    train_generator,
+    validation_data=value_generator,
+    epochs=10,
+    callbacks=[early_stopping, checkpoint],
+)
 
 # Save model
-model.save("models/image_caption_model.keras")
+# model.save("models/image_caption_model.keras")
 print("Model saved")
 
 history_data = pd.DataFrame(history.history)
