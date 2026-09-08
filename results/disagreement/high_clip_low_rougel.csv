@@ -1,0 +1,2 @@
+image,generated_caption,references,CIDEr,CLIPScore,BLEU-1,BLEU-2,BLEU-3,BLEU-4,METEOR,ROUGE-L
+3038760935_9a713510eb.jpg,a dog is playing in a yard,the two dogs are jumping ||| two brown and white dogs racing across a lawn ||| two brown and white dogs running across grass ||| two dogs run together across a grassy lawn ||| two small white and brown dogs bound in unison,0.0003484039721063,0.7572941482067108,0.2476793999286233,0.0598202582772634,0.0395878119063259,0.0340522339563737,0.189873417721519,0.2666666666666666

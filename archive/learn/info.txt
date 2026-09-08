@@ -1,0 +1,339 @@
+Metric	Main idea	Needs human references?	Higher is better?
+BLEU-1	Matching individual words	Yes	Yes
+BLEU-2	Matching 2-word phrases	Yes	Yes
+BLEU-3	Matching 3-word phrases	Yes	Yes
+BLEU-4	Matching 4-word phrases	Yes	Yes
+METEOR	Word overlap plus more flexible linguistic matching	Yes	Yes
+ROUGE-L	Longest matching word sequence	Yes	Yes
+CIDEr	How well a caption agrees with the consensus of human captions	Yes	Yes
+CLIPScore	How well the caption semantically matches the image itself	No	Yes
+
+BLEU
+
+BLEU compares your generated caption with human-written reference captions using n-grams.
+
+Suppose the generated caption is:
+
+a man rides a bicycle
+
+and a human reference is:
+
+a man rides a bicycle on the street
+
+BLEU-1 checks individual words:
+
+a
+man
+rides
+a
+bicycle
+
+So it mainly asks:
+
+Did the generated caption use the same words as the references?
+
+BLEU-1 is relatively forgiving.
+
+BLEU-2 checks pairs of consecutive words:
+
+a man
+man rides
+rides a
+a bicycle
+
+Now word order matters more.
+
+BLEU-3 checks groups of three:
+
+a man rides
+man rides a
+rides a bicycle
+
+BLEU-4 checks groups of four:
+
+a man rides a
+man rides a bicycle
+
+BLEU-4 is therefore much stricter.
+
+For example:
+
+Reference:
+a man rides a bicycle
+Generated:
+a person is riding a bike
+
+Semantically, these are very similar.
+
+But BLEU-4 may be low because there is almost no exact 4-word overlap.
+
+That is one reason your BLEU-4 correlation with CLIPScore was only:
+
+0.386
+
+while BLEU-1 was:
+
+0.510
+
+As BLEU becomes more dependent on exact longer phrases, it can diverge more from semantic similarity.
+
+⸻
+
+METEOR
+
+METEOR is more flexible than BLEU.
+
+It considers things like:
+
+* exact word matches
+* word stems
+* some synonym relationships
+* word ordering
+
+For example:
+
+Reference:
+a man is running
+Generated:
+a person runs
+
+BLEU might penalize this fairly heavily.
+
+METEOR can recognize that:
+
+running
+runs
+
+are closely related.
+
+So METEOR is trying to capture meaning somewhat better than plain n-gram overlap.
+
+Your CLIPScore/METEOR correlation was:
+
+0.495
+
+which is moderate.
+
+⸻
+
+ROUGE-L
+
+ROUGE-L looks for the Longest Common Subsequence.
+
+That means it asks:
+
+What is the longest sequence of words appearing in both captions in the same order?
+
+The words don’t necessarily have to be directly next to each other.
+
+Example:
+
+Reference:
+a young man is riding a bicycle down the street
+Generated:
+a man is riding a bicycle
+
+A long matching sequence exists:
+
+a man is riding a bicycle
+
+So ROUGE-L would probably be fairly high.
+
+This makes ROUGE-L less strict than BLEU-4 about exact consecutive 4-word structures.
+
+In your results, ROUGE-L had the strongest correlation with CLIPScore among the reference-based metrics:
+
+ROUGE-L ↔ CLIPScore = 0.540
+
+Still only moderate, though.
+
+⸻
+
+CIDEr
+
+CIDEr was created specifically for image caption evaluation.
+
+It compares the generated caption against multiple human captions and asks, roughly:
+
+Does this generated caption describe the same important things that humans consistently describe?
+
+It uses n-grams too, but weights them using something similar to TF-IDF.
+
+Common generic words are less important.
+
+For example:
+
+a
+the
+is
+
+don’t contribute as much.
+
+More informative phrases like:
+
+playing guitar
+red motorcycle
+snow covered mountain
+
+matter more.
+
+This is useful with Flickr8k because you have approximately five human captions per image.
+
+Suppose four references mention:
+
+dog
+
+and only one says something unrelated to the dog.
+
+A generated caption mentioning the dog is likely to score well because that concept is part of the human-caption consensus.
+
+Your correlation was:
+
+CIDEr ↔ CLIPScore = 0.536
+
+That’s one of the higher CLIPScore correlations in your experiment.
+
+But CIDEr still depends on the human references.
+
+⸻
+
+CLIPScore
+
+CLIPScore is fundamentally different from all the metrics above.
+
+Instead of asking:
+
+Does this generated caption resemble the human captions?
+
+it asks:
+
+Does this generated caption semantically match the actual image?
+
+CLIP has learned representations for both:
+
+IMAGE
+   ↓
+image embedding
+TEXT
+   ↓
+text embedding
+
+Then it measures how similar those representations are.
+
+So imagine the image contains a child riding a bicycle.
+
+Human reference:
+
+a young boy riding his bicycle outside
+
+Generated caption:
+
+a child cycling outdoors
+
+BLEU-4 might be poor because the wording is very different.
+
+But CLIPScore could be high because:
+
+child ≈ young boy
+cycling ≈ riding bicycle
+outdoors ≈ outside
+
+and more importantly, those concepts fit the actual image.
+
+That’s why CLIPScore is useful for your research.
+
+⸻
+
+The critical distinction
+
+Most of your metrics evaluate:
+
+Generated Caption
+        ↕
+Human References
+
+Specifically:
+
+BLEU
+METEOR
+ROUGE-L
+CIDEr
+
+CLIPScore evaluates:
+
+Generated Caption
+        ↕
+Actual Image
+
+That difference is central to your project.
+
+A simple example
+
+Imagine an image of:
+
+A brown dog jumping into a swimming pool.
+
+Human references might say:
+
+a dog jumps into the water
+a brown dog leaps into a pool
+a dog jumping toward a swimming pool
+a dog is jumping into the water
+a brown animal jumping into a pool
+
+Generated caption A:
+
+a brown dog leaps into a swimming pool
+
+Almost every metric should be high.
+
+Now generated caption B:
+
+a dog jumps into the water
+
+BLEU/CIDEr probably still do well, and CLIPScore should also be good.
+
+Generated caption C:
+
+a canine dives into a pool
+
+Semantically excellent.
+
+But BLEU-4 might be low because the exact wording differs substantially.
+
+CLIPScore might remain high.
+
+Now generated caption D:
+
+a brown dog jumps over a man
+
+It may accidentally share words like:
+
+brown dog jumps
+
+with the human references.
+
+A lexical metric could still give it some credit.
+
+But CLIPScore may penalize it because there is no man in the image and the action is wrong.
+
+That type of case is what our disagreement analysis is trying to find.
+
+How to think about them
+
+You can mentally group your metrics into three families:
+
+Lexical / n-gram
+├── BLEU-1
+├── BLEU-2
+├── BLEU-3
+└── BLEU-4
+Reference similarity
+├── METEOR
+├── ROUGE-L
+└── CIDEr
+Image-semantic
+└── CLIPScore
+
+They’re not perfectly separate categories—CIDEr also uses n-grams, for example—but this is a useful conceptual way to understand your experiment.
+
