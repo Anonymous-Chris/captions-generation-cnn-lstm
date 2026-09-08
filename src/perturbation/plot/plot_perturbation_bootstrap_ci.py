@@ -18,7 +18,7 @@ perturbation_order = [
     "hallucination",
 ]
 
-pretty_names = {
+base_names = {
     "object_replacement": "Object",
     "person_replacement": "Person",
     "color_replacement": "Color",
@@ -26,6 +26,10 @@ pretty_names = {
     "negation": "Negation",
     "hallucination": "Hallucination",
 }
+
+sample_sizes = df.groupby("perturbation_type")["n"].first().to_dict()
+
+pretty_names = {p: f"{base_names[p]} (n={sample_sizes[p]})" for p in perturbation_order}
 
 plot_df = df[df["metric"].isin(metrics)].copy()
 
