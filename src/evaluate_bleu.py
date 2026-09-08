@@ -10,7 +10,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 captions_file = "data/flickr8k/captions.txt"
 feature_file = "data/vgg16_features.npy"
-model_file = "models/image_caption_model.keras"
+model_file = "models/best_image_caption_model.keras"
 
 # Load data
 data = pd.read_csv(captions_file)

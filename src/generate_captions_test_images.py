@@ -53,7 +53,7 @@ with open(tokenizer_file, "rb") as f:
     tokenizer = pickle.load(f)
 
 with open(max_length_file, "rb") as f:
-    max_length = pickle.load(f)
+    max_length = int(f.read())
 
 # Load VGG16 features
 features = np.load(feature_file, allow_pickle=True).item()

@@ -7,3 +7,5 @@ nltk
 scikit-learn 
 jupyter
 gradio
+rouge-score
+pycocoevalcap
