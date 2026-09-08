@@ -18,7 +18,6 @@ image_folder = "data/flickr8k/images"
 overall_output = "results/clipscore_results.csv"
 per_image_output = "results/test_predictions_with_clipscore.csv"
 
-
 # Device
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print("Using device:", device)

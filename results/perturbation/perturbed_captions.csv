@@ -2,6 +2,7 @@ image,perturbation_type,original_caption,perturbed_caption
 2224995194_518859d97d.jpg,original,the rock climbers are on their equipment in front of a cave,the rock climbers are on their equipment in front of a cave
 2224995194_518859d97d.jpg,hallucination,the rock climbers are on their equipment in front of a cave,the rock climbers are on their equipment in front of a cave with a helicopter
 3168123064_d1983b8f92.jpg,original,a person in a black wetsuit is surfing in the ocean with a wave coming down,a person in a black wetsuit is surfing in the ocean with a wave coming down
+3168123064_d1983b8f92.jpg,action_replacement,a person in a black wetsuit is surfing in the ocean with a wave coming down,a person in a black wetsuit is swimming in the ocean with a wave coming down
 3168123064_d1983b8f92.jpg,negation,a person in a black wetsuit is surfing in the ocean with a wave coming down,a person in a black wetsuit is not surfing in the ocean with a wave coming down
 3168123064_d1983b8f92.jpg,hallucination,a person in a black wetsuit is surfing in the ocean with a wave coming down,a person in a black wetsuit is surfing in the ocean with a wave coming down with a helicopter
 2441629086_52f68eb316.jpg,original,a girl is peeking in a window,a girl is peeking in a window
@@ -39,6 +40,7 @@ image,perturbation_type,original_caption,perturbed_caption
 989754491_7e53fb4586.jpg,hallucination,a girl in a pool wearing goggles and surrounded by other children,a girl in a pool wearing goggles and surrounded by other children with a helicopter
 3638178504_be1ff246bd.jpg,original,a little girl is looking at the two horses on the other side of the fence,a little girl is looking at the two horses on the other side of the fence
 3638178504_be1ff246bd.jpg,person_replacement,a little girl is looking at the two horses on the other side of the fence,a little boy is looking at the two horses on the other side of the fence
+3638178504_be1ff246bd.jpg,action_replacement,a little girl is looking at the two horses on the other side of the fence,a little girl is pointing at the two horses on the other side of the fence
 3638178504_be1ff246bd.jpg,negation,a little girl is looking at the two horses on the other side of the fence,a little girl is not looking at the two horses on the other side of the fence
 3638178504_be1ff246bd.jpg,hallucination,a little girl is looking at the two horses on the other side of the fence,a little girl is looking at the two horses on the other side of the fence with a helicopter
 3472270112_0a7cb7b27c.jpg,original,a baseman and a ballplayer from the opposing team sliding onto base,a baseman and a ballplayer from the opposing team sliding onto base
@@ -49,6 +51,7 @@ image,perturbation_type,original_caption,perturbed_caption
 3464871350_3f2d624a9c.jpg,hallucination,a driver is sitting in a team penske race car,a driver is sitting in a team penske race car with an umbrella
 493542985_c85ad29ebe.jpg,original,a girl is rowing in a lake,a girl is rowing in a lake
 493542985_c85ad29ebe.jpg,person_replacement,a girl is rowing in a lake,a boy is rowing in a lake
+493542985_c85ad29ebe.jpg,action_replacement,a girl is rowing in a lake,a girl is floating in a lake
 493542985_c85ad29ebe.jpg,negation,a girl is rowing in a lake,a girl is not rowing in a lake
 493542985_c85ad29ebe.jpg,hallucination,a girl is rowing in a lake,a girl is rowing in a lake with an umbrella
 2303016989_0deb96c8d9.jpg,original,a black and white dog is catching a red and green object in his mouth,a black and white dog is catching a red and green object in his mouth
@@ -107,10 +110,11 @@ image,perturbation_type,original_caption,perturbed_caption
 380041023_0dfd712ef1.jpg,hallucination,a brown and black dog runs through the leaves,a brown and black dog runs through the leaves with a suitcase
 1000268201_693b08cb0e.jpg,original,a child in a pink dress is climbing up a set of stairs in an entry way,a child in a pink dress is climbing up a set of stairs in an entry way
 1000268201_693b08cb0e.jpg,color_replacement,a child in a pink dress is climbing up a set of stairs in an entry way,a child in a purple dress is climbing up a set of stairs in an entry way
+1000268201_693b08cb0e.jpg,action_replacement,a child in a pink dress is climbing up a set of stairs in an entry way,a child in a pink dress is standing beside a set of stairs in an entry way
 1000268201_693b08cb0e.jpg,negation,a child in a pink dress is climbing up a set of stairs in an entry way,a child in a pink dress is not climbing up a set of stairs in an entry way
 1000268201_693b08cb0e.jpg,hallucination,a child in a pink dress is climbing up a set of stairs in an entry way,a child in a pink dress is climbing up a set of stairs in an entry way with an umbrella
 3669564923_8fcb1a6eff.jpg,original,the girls are both eating and the girl wearing the color red has cake icing on her upper lip,the girls are both eating and the girl wearing the color red has cake icing on her upper lip
-3669564923_8fcb1a6eff.jpg,person_replacement,the girls are both eating and the girl wearing the color red has cake icing on her upper lip,the girls are both eating and the boy wearing the color red has cake icing on her upper lip
+3669564923_8fcb1a6eff.jpg,person_replacement,the girls are both eating and the girl wearing the color red has cake icing on her upper lip,the girls are both eating and the boy wearing the color red has cake icing on his upper lip
 3669564923_8fcb1a6eff.jpg,color_replacement,the girls are both eating and the girl wearing the color red has cake icing on her upper lip,the girls are both eating and the girl wearing the color blue has cake icing on her upper lip
 3669564923_8fcb1a6eff.jpg,hallucination,the girls are both eating and the girl wearing the color red has cake icing on her upper lip,the girls are both eating and the girl wearing the color red has cake icing on her upper lip with an umbrella
 2952320230_26601173be.jpg,original,a female tennis player swings for the ball,a female tennis player swings for the ball
@@ -121,6 +125,7 @@ image,perturbation_type,original_caption,perturbed_caption
 3600403707_527aa0596e.jpg,hallucination,a garden shop is being perused by shoppers with a sitting shop owner waving,a garden shop is being perused by shoppers with a sitting shop owner waving with a helicopter
 3256043809_47258e0b3e.jpg,original,a brown and white dog is sniffing the snow covered ground,a brown and white dog is sniffing the snow covered ground
 3256043809_47258e0b3e.jpg,object_replacement,a brown and white dog is sniffing the snow covered ground,a brown and white cat is sniffing the snow covered ground
+3256043809_47258e0b3e.jpg,action_replacement,a brown and white dog is sniffing the snow covered ground,a brown and white dog is walking on the snow covered ground
 3256043809_47258e0b3e.jpg,negation,a brown and white dog is sniffing the snow covered ground,a brown and white dog is not sniffing the snow covered ground
 3256043809_47258e0b3e.jpg,hallucination,a brown and white dog is sniffing the snow covered ground,a brown and white dog is sniffing the snow covered ground with a helicopter
 3481859121_3d3e566ec0.jpg,original,a group of people sitting on a sidewalk,a group of people sitting on a sidewalk
@@ -182,6 +187,7 @@ image,perturbation_type,original_caption,perturbed_caption
 3232470286_903a61ea16.jpg,object_replacement,a ball is about to enter a goal at a soccer match,a book is about to enter a goal at a soccer match
 3232470286_903a61ea16.jpg,hallucination,a ball is about to enter a goal at a soccer match,a ball is about to enter a goal at a soccer match with a helicopter
 2115631346_9585a479b0.jpg,original,two brown dogs are running through the snow,two brown dogs are running through the snow
+2115631346_9585a479b0.jpg,action_replacement,two brown dogs are running through the snow,two brown dogs are standing in the snow
 2115631346_9585a479b0.jpg,negation,two brown dogs are running through the snow,two brown dogs are not running through the snow
 2115631346_9585a479b0.jpg,hallucination,two brown dogs are running through the snow,two brown dogs are running through the snow with an umbrella
 1721637099_93e9ec2a2f.jpg,original,a boy laying on clothes,a boy laying on clothes
@@ -222,6 +228,7 @@ image,perturbation_type,original_caption,perturbed_caption
 3118534315_cc03e5ddab.jpg,original,a man is recording something with a red flag behind him,a man is recording something with a red flag behind him
 3118534315_cc03e5ddab.jpg,person_replacement,a man is recording something with a red flag behind him,a woman is recording something with a red flag behind her
 3118534315_cc03e5ddab.jpg,color_replacement,a man is recording something with a red flag behind him,a man is recording something with a blue flag behind him
+3118534315_cc03e5ddab.jpg,action_replacement,a man is recording something with a red flag behind him,a man is watching something with a red flag behind him
 3118534315_cc03e5ddab.jpg,negation,a man is recording something with a red flag behind him,a man is not recording something with a red flag behind him
 3118534315_cc03e5ddab.jpg,hallucination,a man is recording something with a red flag behind him,a man is recording something with a red flag behind him with an umbrella
 973827791_467d83986e.jpg,original,a little kid splashes around in the kiddie pool while a lady watches,a little kid splashes around in the kiddie pool while a lady watches
@@ -276,6 +283,7 @@ image,perturbation_type,original_caption,perturbed_caption
 3496028495_431cfdc042.jpg,hallucination,a brown dog swimming in the water with a tennis ball in his mouth,a brown dog swimming in the water with a tennis ball in his mouth with a helicopter
 3134644844_493eec6cdc.jpg,original,a man is playing a guitar for a little girl in a hospital,a man is playing a guitar for a little girl in a hospital
 3134644844_493eec6cdc.jpg,person_replacement,a man is playing a guitar for a little girl in a hospital,a woman is playing a guitar for a little girl in a hospital
+3134644844_493eec6cdc.jpg,action_replacement,a man is playing a guitar for a little girl in a hospital,a man is holding a guitar for a little girl in a hospital
 3134644844_493eec6cdc.jpg,negation,a man is playing a guitar for a little girl in a hospital,a man is not playing a guitar for a little girl in a hospital
 3134644844_493eec6cdc.jpg,hallucination,a man is playing a guitar for a little girl in a hospital,a man is playing a guitar for a little girl in a hospital with a suitcase
 3242808166_8638150274.jpg,original,a bike rider in red rides through the trees down a snowy hill,a bike rider in red rides through the trees down a snowy hill
@@ -309,6 +317,7 @@ image,perturbation_type,original_caption,perturbed_caption
 3608663656_9192a21eeb.jpg,person_replacement,a man climbs up the side of a steep rock that overlooks a river,a woman climbs up the side of a steep rock that overlooks a river
 3608663656_9192a21eeb.jpg,hallucination,a man climbs up the side of a steep rock that overlooks a river,a man climbs up the side of a steep rock that overlooks a river with a traffic cone
 3275537015_74e04c0f3e.jpg,original,four girls are playing volleyball on a sandy beach near ocean,four girls are playing volleyball on a sandy beach near ocean
+3275537015_74e04c0f3e.jpg,action_replacement,four girls are playing volleyball on a sandy beach near ocean,four girls are watching volleyball on a sandy beach near ocean
 3275537015_74e04c0f3e.jpg,negation,four girls are playing volleyball on a sandy beach near ocean,four girls are not playing volleyball on a sandy beach near ocean
 3275537015_74e04c0f3e.jpg,hallucination,four girls are playing volleyball on a sandy beach near ocean,four girls are playing volleyball on a sandy beach near ocean with a traffic cone
 1457762320_7fe121b285.jpg,original,a group of bicyclists getting ready for a ride,a group of bicyclists getting ready for a ride

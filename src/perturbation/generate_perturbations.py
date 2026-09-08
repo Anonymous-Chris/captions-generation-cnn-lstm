@@ -34,17 +34,67 @@ color_replacements = {
 }
 
 action_phrase_replacements = {
-    "is sitting beside": "is standing beside",
-    "are sitting beside": "are standing beside",
-    "is standing beside": "is sitting beside",
-    "are standing beside": "are sitting beside",
-    "is riding a scooter": "is carrying a scooter",
-    "is riding a bicycle": "is carrying a bicycle",
-    "is riding a bike": "is carrying a bike",
+    # Running
     "is running on": "is standing on",
     "are running on": "are standing on",
     "is running beside": "is standing beside",
     "are running beside": "are standing beside",
+    "is running through": "is standing in",
+    "are running through": "are standing in",
+    # Sitting
+    "is sitting beside": "is standing beside",
+    "are sitting beside": "are standing beside",
+    # Riding
+    "is riding a scooter": "is carrying a scooter",
+    "are riding a scooter": "are carrying a scooter",
+    "is riding a bicycle": "is carrying a bicycle",
+    "are riding a bicycle": "are carrying a bicycle",
+    "is riding a bike": "is carrying a bike",
+    "are riding a bike": "are carrying a bike",
+    # Walking
+    "is walking in front of": "is standing in front of",
+    "are walking in front of": "are standing in front of",
+    "is walking on": "is standing on",
+    "are walking on": "are standing on",
+    # Jumping
+    "is jumping in": "is standing in",
+    "are jumping in": "are standing in",
+    "is jumping on": "is standing on",
+    "are jumping on": "are standing on",
+    "is jumping over": "is standing beside",
+    "are jumping over": "are standing beside",
+    # Playing
+    "is playing a guitar": "is holding a guitar",
+    "are playing a guitar": "are holding a guitar",
+    "is playing volleyball": "is watching volleyball",
+    "are playing volleyball": "are watching volleyball",
+    # Looking
+    "is looking at": "is pointing at",
+    "are looking at": "are pointing at",
+    # Climbing
+    "is climbing up": "is standing beside",
+    "are climbing up": "are standing beside",
+    # Catching
+    "is catching a frisbee": "is holding a frisbee",
+    "are catching a frisbee": "are holding a frisbee",
+    # Holding
+    "is holding onto": "is standing beside",
+    "are holding onto": "are standing beside",
+    # Rowing
+    "is rowing in": "is floating in",
+    "are rowing in": "are floating in",
+    # Surfing
+    "is surfing in": "is swimming in",
+    "are surfing in": "are swimming in",
+    # Chasing
+    "is chasing": "is watching",
+    "are chasing": "are watching",
+    # Sniffing
+    "is sniffing": "is walking on",
+    "are sniffing": "are walking on",
+    # Recording
+    "is recording": "is watching",
+    "are recording": "are watching",
 }
 
 hallucinated_objects = [
