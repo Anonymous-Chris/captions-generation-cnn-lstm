@@ -1,0 +1,7 @@
+python3.10
+pip<24.1
+polos
+pandas
+pillow
+tqdm
+numpy=1.23.5

@@ -1,0 +1,16 @@
+# Import and mount drive
+
+from google.colab import drive 
+drive.mount('/content/drive')
+
+# Check folder contents
+!ls /content/drive/MyDrive/polos-project/
+
+# Run setup
+!bash /content/drive/MyDrive/polos-project/setup.sh
+
+# Confirm GPU is visible to PyTorch
+# Once setup finishes, the last printed line should say 'CUDA available: True'. 
+# If it says False, double check step 2 was actually applied (Runtime → Change runtime type 
+# shows GPU selected) and that the runtime didn't silently fall back to CPU.
+

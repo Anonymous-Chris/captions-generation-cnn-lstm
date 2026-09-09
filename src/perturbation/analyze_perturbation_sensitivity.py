@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 # Files
-input_file = "results/perturbation/perturbation_metrics_with_clipscore.csv"
+input_file = "results/perturbation/perturbation_metrics_with_polos.csv"
 delta_output_file = "results/perturbation/perturbation_deltas.csv"
 summary_output_file = "results/perturbation/perturbation_summary.csv"
 
@@ -21,6 +21,7 @@ metrics = [
     "ROUGE-L",
     "CIDEr",
     "CLIPScore",
+    "polos",
 ]
 
 # Get original scores for each image

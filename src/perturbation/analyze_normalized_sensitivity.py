@@ -18,6 +18,7 @@ metrics = [
     "ROUGE-L",
     "CIDEr",
     "CLIPScore",
+    "polos",
 ]
 
 perturbation_order = [
@@ -185,6 +186,23 @@ bleu4_summary = summary_df[summary_df["metric"] == "BLEU-4"][
 ]
 
 print(bleu4_summary.round(4).to_string(index=False))
+
+# POLOS confidence intervals
+print("\nPOLOS normalized sensitivity with 95% bootstrap CI")
+print("-" * 80)
+
+polos_summary = summary_df[summary_df["metric"] == "polos"][
+    [
+        "perturbation_type",
+        "n",
+        "mean_raw_delta",
+        "mean_normalized_delta",
+        "ci_95_lower",
+        "ci_95_upper",
+    ]
+]
+
+print(polos_summary.round(4).to_string(index=False))
 
 # Finished
 print("\nSaved:")
