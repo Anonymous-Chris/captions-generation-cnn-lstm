@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 # Settings
-input_file = "results/test_predictions.csv"
+input_file = "results/predictions/test_predictions.csv"
 output_dir = "results/perturbation"
 output_file = f"{output_dir}/perturbation_sample.csv"
 

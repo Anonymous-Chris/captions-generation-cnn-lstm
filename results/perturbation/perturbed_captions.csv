@@ -114,7 +114,7 @@ image,perturbation_type,original_caption,perturbed_caption
 1000268201_693b08cb0e.jpg,negation,a child in a pink dress is climbing up a set of stairs in an entry way,a child in a pink dress is not climbing up a set of stairs in an entry way
 1000268201_693b08cb0e.jpg,hallucination,a child in a pink dress is climbing up a set of stairs in an entry way,a child in a pink dress is climbing up a set of stairs in an entry way with an umbrella
 3669564923_8fcb1a6eff.jpg,original,the girls are both eating and the girl wearing the color red has cake icing on her upper lip,the girls are both eating and the girl wearing the color red has cake icing on her upper lip
-3669564923_8fcb1a6eff.jpg,person_replacement,the girls are both eating and the girl wearing the color red has cake icing on her upper lip,the girls are both eating and the boy wearing the color red has cake icing on his upper lip
+3669564923_8fcb1a6eff.jpg,person_replacement,the girls are both eating and the girl wearing the color red has cake icing on her upper lip,the girls are both eating and the boy wearing the color red has cake icing on her upper lip
 3669564923_8fcb1a6eff.jpg,color_replacement,the girls are both eating and the girl wearing the color red has cake icing on her upper lip,the girls are both eating and the girl wearing the color blue has cake icing on her upper lip
 3669564923_8fcb1a6eff.jpg,hallucination,the girls are both eating and the girl wearing the color red has cake icing on her upper lip,the girls are both eating and the girl wearing the color red has cake icing on her upper lip with an umbrella
 2952320230_26601173be.jpg,original,a female tennis player swings for the ball,a female tennis player swings for the ball
@@ -153,7 +153,7 @@ image,perturbation_type,original_caption,perturbed_caption
 2242863004_3a9f82a31f.jpg,color_replacement,a dog attempting to chew on a red ball,a dog attempting to chew on a blue ball
 2242863004_3a9f82a31f.jpg,hallucination,a dog attempting to chew on a red ball,a dog attempting to chew on a red ball with a television
 3304030264_da3dd18c7b.jpg,original,a boy in black pants and green tshirt jumps high with his skateboard,a boy in black pants and green tshirt jumps high with his skateboard
-3304030264_da3dd18c7b.jpg,person_replacement,a boy in black pants and green tshirt jumps high with his skateboard,a girl in black pants and green tshirt jumps high with her skateboard
+3304030264_da3dd18c7b.jpg,person_replacement,a boy in black pants and green tshirt jumps high with his skateboard,a girl in black pants and green tshirt jumps high with his skateboard
 3304030264_da3dd18c7b.jpg,hallucination,a boy in black pants and green tshirt jumps high with his skateboard,a boy in black pants and green tshirt jumps high with his skateboard with a helicopter
 2431120202_b24fe2333a.jpg,original,a girl crosscountry skis,a girl crosscountry skis
 2431120202_b24fe2333a.jpg,person_replacement,a girl crosscountry skis,a boy crosscountry skis
@@ -163,7 +163,7 @@ image,perturbation_type,original_caption,perturbed_caption
 1419286010_b59af3962a.jpg,negation,a fisherman is reeling his rod while another relaxes in a boat on water,a fisherman is not reeling his rod while another relaxes in a boat on water
 1419286010_b59af3962a.jpg,hallucination,a fisherman is reeling his rod while another relaxes in a boat on water,a fisherman is reeling his rod while another relaxes in a boat on water with a helicopter
 370614351_98b8a166b9.jpg,original,a man with a mohawk with his arms in the air,a man with a mohawk with his arms in the air
-370614351_98b8a166b9.jpg,person_replacement,a man with a mohawk with his arms in the air,a woman with a mohawk with her arms in the air
+370614351_98b8a166b9.jpg,person_replacement,a man with a mohawk with his arms in the air,a woman with a mohawk with his arms in the air
 370614351_98b8a166b9.jpg,hallucination,a man with a mohawk with his arms in the air,a man with a mohawk with his arms in the air with a television
 811662356_f9a632b63c.jpg,original,a child stands near a fence,a child stands near a fence
 811662356_f9a632b63c.jpg,hallucination,a child stands near a fence,a child stands near a fence with a suitcase
@@ -216,7 +216,7 @@ image,perturbation_type,original_caption,perturbed_caption
 3699522388_2333f01f40.jpg,person_replacement,a bald man in a black wetsuit flips leaps in the air on a surfboard holds on to a waterskiing handle,a bald woman in a black wetsuit flips leaps in the air on a surfboard holds on to a waterskiing handle
 3699522388_2333f01f40.jpg,hallucination,a bald man in a black wetsuit flips leaps in the air on a surfboard holds on to a waterskiing handle,a bald man in a black wetsuit flips leaps in the air on a surfboard holds on to a waterskiing handle with a suitcase
 2774554310_007e980a90.jpg,original,a woman dressed in black and pink has a large tattoo on her back,a woman dressed in black and pink has a large tattoo on her back
-2774554310_007e980a90.jpg,person_replacement,a woman dressed in black and pink has a large tattoo on her back,a man dressed in black and pink has a large tattoo on his back
+2774554310_007e980a90.jpg,person_replacement,a woman dressed in black and pink has a large tattoo on her back,a man dressed in black and pink has a large tattoo on her back
 2774554310_007e980a90.jpg,hallucination,a woman dressed in black and pink has a large tattoo on her back,a woman dressed in black and pink has a large tattoo on her back with an umbrella
 3424927725_c4d1fcfac3.jpg,original,a man in yellow sits on a rock ledge overlooking a forest,a man in yellow sits on a rock ledge overlooking a forest
 3424927725_c4d1fcfac3.jpg,person_replacement,a man in yellow sits on a rock ledge overlooking a forest,a woman in yellow sits on a rock ledge overlooking a forest
@@ -226,7 +226,7 @@ image,perturbation_type,original_caption,perturbed_caption
 3160531982_37f5636b8a.jpg,negation,a parachute is making his landing as the sunsets behind him,a parachute is not making his landing as the sunsets behind him
 3160531982_37f5636b8a.jpg,hallucination,a parachute is making his landing as the sunsets behind him,a parachute is making his landing as the sunsets behind him with a suitcase
 3118534315_cc03e5ddab.jpg,original,a man is recording something with a red flag behind him,a man is recording something with a red flag behind him
-3118534315_cc03e5ddab.jpg,person_replacement,a man is recording something with a red flag behind him,a woman is recording something with a red flag behind her
+3118534315_cc03e5ddab.jpg,person_replacement,a man is recording something with a red flag behind him,a woman is recording something with a red flag behind him
 3118534315_cc03e5ddab.jpg,color_replacement,a man is recording something with a red flag behind him,a man is recording something with a blue flag behind him
 3118534315_cc03e5ddab.jpg,action_replacement,a man is recording something with a red flag behind him,a man is watching something with a red flag behind him
 3118534315_cc03e5ddab.jpg,negation,a man is recording something with a red flag behind him,a man is not recording something with a red flag behind him
@@ -274,7 +274,7 @@ image,perturbation_type,original_caption,perturbed_caption
 3652572138_34d6b72999.jpg,person_replacement,a boy jumps,a girl jumps
 3652572138_34d6b72999.jpg,hallucination,a boy jumps,a boy jumps with a suitcase
 1075881101_d55c46bece.jpg,original,a boy cleans the bubbles off his face,a boy cleans the bubbles off his face
-1075881101_d55c46bece.jpg,person_replacement,a boy cleans the bubbles off his face,a girl cleans the bubbles off her face
+1075881101_d55c46bece.jpg,person_replacement,a boy cleans the bubbles off his face,a girl cleans the bubbles off his face
 1075881101_d55c46bece.jpg,hallucination,a boy cleans the bubbles off his face,a boy cleans the bubbles off his face with a helicopter
 3695949492_27ca3892fd.jpg,original,two dogs holding opposite ends of a toy with their mouths swimming,two dogs holding opposite ends of a toy with their mouths swimming
 3695949492_27ca3892fd.jpg,hallucination,two dogs holding opposite ends of a toy with their mouths swimming,two dogs holding opposite ends of a toy with their mouths swimming with an umbrella
