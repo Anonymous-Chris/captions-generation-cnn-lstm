@@ -644,70 +644,220 @@ It is important that BLEU, METEOR, ROUGE-L, CIDEr, CLIPScore, and POLOS are all 
 
 # Main Experimental Findings
 
-The trained captioning model achieved approximately:
+The captioning baseline produced the following approximate overall scores on the test set:
 
 ```text
-BLEU-1: 0.5540
-BLEU-2: 0.3703
-BLEU-3: 0.2387
-BLEU-4: 0.1488
-METEOR: approximately 0.36
-CIDEr: approximately 0.36
-CLIPScore: approximately 0.64
+BLEU-1:     0.51–0.55
+BLEU-2:     0.34–0.37
+BLEU-3:     0.21–0.24
+BLEU-4:     0.13–0.15
+METEOR:     0.36
+ROUGE-L:    0.42
+CIDEr:      0.37
+CLIPScore:  0.65
 ```
 
-Earlier BLEU evaluation also produced approximately:
+The exact BLEU values varied slightly across evaluation runs, but the overall pattern was consistent.
+
+The central research result was not the absolute captioning score. The main result was that lexical and semantic evaluation metrics were related but not interchangeable.
+
+## Correlation With CLIPScore
+
+Approximate Pearson correlations with CLIPScore were:
 
 ```text
-BLEU-1: 0.5258
-BLEU-2: 0.3518
-BLEU-3: 0.2201
-BLEU-4: 0.1351
+BLEU-1    0.510
+BLEU-2    0.499
+BLEU-3    0.446
+BLEU-4    0.386
+METEOR    0.495
+ROUGE-L   0.540
+CIDEr     0.536
 ```
 
-The metric-comparison analysis showed that lexical metrics and semantic/image-aware metrics are related but not interchangeable.
+These moderate positive correlations indicate that traditional reference-based metrics and semantic image-text evaluation agree to some extent, but they are clearly measuring different properties of caption quality.
 
-Example Pearson correlations with CLIPScore included approximately:
+BLEU-4 had one of the weakest correlations with CLIPScore:
 
 ```text
-BLEU-4   0.386
-BLEU-3   0.446
-METEOR   0.495
-BLEU-2   0.499
-BLEU-1   0.510
-CIDEr    0.536
-ROUGE-L  0.540
+BLEU-4 vs CLIPScore ≈ 0.386
 ```
 
-This suggests that metrics based primarily on reference-caption word overlap do not always agree with semantic image-text alignment.
+This is consistent with the fact that BLEU-4 rewards exact multi-word overlap, while CLIPScore focuses more on semantic alignment between the generated caption and the image.
 
-The disagreement analysis identified captions that received relatively strong lexical scores while receiving weaker semantic scores, as well as the reverse.
+## POLOS Findings
 
-One observed example had approximately:
+POLOS showed a much stronger relationship with CLIPScore than the traditional lexical metrics.
+
+Approximate correlations were:
 
 ```text
-BLEU-4:    0.3058
-CLIPScore: 0.4003
+Pearson:
+CLIPScore vs POLOS ≈ 0.803
+
+Spearman:
+CLIPScore vs POLOS ≈ 0.816
 ```
 
-This is useful evidence that a caption can share words or phrases with the references without aligning equally well with the actual visual content.
+POLOS also showed moderate Pearson correlations with the traditional metrics:
 
-The perturbation experiment extends this analysis by deliberately modifying captions and measuring how each metric responds to semantic errors such as object replacements, action changes, attribute changes, negation, and hallucination.
+```text
+BLEU-1   vs POLOS ≈ 0.634
+BLEU-2   vs POLOS ≈ 0.640
+BLEU-3   vs POLOS ≈ 0.587
+BLEU-4   vs POLOS ≈ 0.509
+METEOR   vs POLOS ≈ 0.629
+ROUGE-L  vs POLOS ≈ 0.668
+CIDEr    vs POLOS ≈ 0.668
+```
 
-The overall research question is therefore not simply:
+This suggests that POLOS behaves more like a learned semantic metric than a purely lexical overlap metric.
 
-> Which metric gives the highest score?
+At the same time, the correlation between POLOS and CLIPScore was not perfect. This indicates that even semantic metrics are not identical and may capture different aspects of caption quality.
 
-Instead, the project asks:
+## Metric Disagreement
 
-> What properties of caption quality does each metric measure, where do the metrics disagree, and which metrics are most sensitive to meaningful semantic errors?
+The disagreement analysis identified captions where traditional and semantic metrics made very different judgments.
 
----
+Examples included:
 
-# Notes
+```text
+High CLIPScore / Low BLEU
+Low CLIPScore / High BLEU
+High POLOS / Low traditional scores
+Low POLOS / Higher traditional scores
+```
 
-- Run scripts from the project root.
-- Some scripts depend on files produced by earlier stages.
-- POLOS may require a separate Python environment or Google Colab setup.
-- Do not delete intermediate results unless you plan to regenerate them.
-- The `archive/` directory contains historical implementations and is not part of the current main pipeline.
+One semantic-high / traditional-low example was:
+
+```text
+Generated:
+a black dog is running in the grass
+
+BLEU-4:    0.042
+CLIPScore: 0.823
+POLOS:     0.722
+```
+
+The generated caption was semantically reasonable, but its exact wording differed from the reference captions. As a result, BLEU-4 was low while both semantic metrics were high.
+
+Another example showed the reverse pattern:
+
+```text
+Generated:
+a man sitting on a table with a man in a blue shirt
+
+BLEU-4:    0.306
+CLIPScore: 0.400
+POLOS:     0.160
+```
+
+Here, lexical overlap was relatively stronger, but the semantic metrics suggested that the caption did not align well with the actual image.
+
+These cases support the conclusion that lexical overlap can sometimes overestimate caption quality, while semantic metrics can recognize meaning that traditional overlap metrics miss.
+
+## Rank Disagreement
+
+Rank analysis showed that the metrics also ordered captions differently.
+
+The strongest rank disagreements frequently involved CLIPScore or POLOS compared with traditional metrics.
+
+This matters because two metrics can have a moderate overall correlation while still strongly disagreeing about which individual captions are best or worst.
+
+## Controlled Perturbation Findings
+
+The perturbation experiment was designed to test metric sensitivity to known semantic errors.
+
+Perturbation categories included:
+
+- object replacement
+- attribute replacement
+- action replacement
+- negation
+- hallucination
+
+For each perturbation, the project measures the score change between the original and perturbed caption.
+
+The traditional metrics, CLIPScore, and POLOS are all included in this experiment.
+
+The purpose is to answer:
+
+> When a caption is deliberately made semantically incorrect, which evaluation metrics detect the change most reliably?
+
+The perturbation pipeline produces:
+
+```text
+results/perturbation/perturbation_metrics.csv
+results/perturbation/perturbation_metrics_with_clipscore.csv
+results/perturbation/perturbation_metrics_with_polos.csv
+results/perturbation/perturbation_deltas.csv
+results/perturbation/perturbation_normalized_deltas.csv
+results/perturbation/normalized_sensitivity_summary.csv
+results/perturbation/perturbation_sensitivity.png
+results/perturbation/perturbation_bootstrap_ci.png
+```
+
+POLOS is therefore not only used in correlation analysis; it is also part of the controlled robustness experiment.
+
+## Overall Interpretation
+
+The overall study supports the following conclusion:
+
+> No single automatic metric captures all aspects of image-caption quality.
+
+Traditional metrics such as BLEU, METEOR, ROUGE-L, and CIDEr measure similarity to human-written reference captions.
+
+CLIPScore measures image-caption semantic alignment.
+
+POLOS provides an additional learned semantic evaluation signal and showed especially strong agreement with CLIPScore while still differing from it.
+
+The combined evidence from correlation analysis, disagreement analysis, rank analysis, and controlled perturbation testing supports a multi-metric evaluation framework rather than relying on a single score.
+
+## Research Contribution
+
+The main contribution of the project is the evaluation framework rather than a novel caption-generation architecture.
+
+The study combines:
+
+- a reproducible CNN-LSTM captioning baseline
+- traditional lexical metrics
+- learned semantic metrics
+- Pearson correlation analysis
+- Spearman rank correlation
+- per-image disagreement analysis
+- rank disagreement analysis
+- qualitative case studies
+- controlled semantic perturbations
+- normalized sensitivity analysis
+- bootstrap confidence intervals
+
+The research question therefore moves beyond:
+
+> How high is the captioning score?
+
+and instead asks:
+
+> What does each metric actually measure, where do the metrics disagree, and how robustly do they respond to known semantic errors?
+
+## Limitations
+
+The current study has several limitations:
+
+- Flickr8k is relatively small.
+- CNN-LSTM is an older baseline compared with transformer-based vision-language models.
+- Automatic metrics are not substitutes for human judgment.
+- The perturbation dataset can be expanded.
+- Results should be replicated across additional datasets and captioning architectures.
+
+## Future Work
+
+Future extensions include:
+
+- Flickr30k
+- MSCOCO
+- transformer-based captioning models
+- human evaluation
+- larger perturbation sets
+- additional learned evaluation metrics
+- error-type-specific sensitivity analysis
+- cross-model comparison of metric behavior
